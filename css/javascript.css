@@ -8,7 +8,7 @@
 */
 
 /*
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 =     00   00 00 00   00 00 00   00 00 00   00 00 00   00 00    =
 =     00   00    00        00    00    00   00    00   00       =
 =     00   00    00      00      00    00   00    00   00       =
@@ -18,7 +18,7 @@
 */
 
 
-/* Navigational Menu navigation 
+/* Navigational Menu navigation
 =========================================================*/
 .navigation ul{
 	z-index:100;
@@ -223,29 +223,29 @@ header.style-3 .navigation ul li ul {
 	width: 30%;
     margin: 3px 6px 3px 0;
 }
-	
-#sidebar.thumbs li img { 
-	display: inline-block; width:83px; height:75px; 
-} 
 
-#footer.thumbs li img { 
+#sidebar.thumbs li img {
+	display: inline-block; width:83px; height:75px;
+}
+
+#footer.thumbs li img {
 	width: 92px; height: 73px;
-} 
+}
 
 .four.columns #footer.thumbs li img {
 	width: 92px;
 	height: 65px;
 }
 
-.thumbs li a img { 
+.thumbs li a img {
 	border: none; opacity:.7; filter:alpha(opacity=70); /* IE patch */
 }
 
-.thumbs li a:hover img { 
-	opacity:1; filter:alpha(opacity=100); /* IE patch */ 
+.thumbs li a:hover img {
+	opacity:1; filter:alpha(opacity=100); /* IE patch */
 }
 
-/* UiTop scroll to top page 
+/* UiTop scroll to top page
 =========================================================*/
 #toTop {
 	display:none;
@@ -366,7 +366,7 @@ header.style-3 .navigation ul li ul {
 .clearfix { zoom: 1; }
 
 
-/* Flex Slider 
+/* Flex Slider
 =========================================================*/
 .flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus{
 	outline:none;
@@ -536,7 +536,7 @@ html[xmlns] .slides{
 /* Contact form notification
 =========================================================*/
 .notification_error
-{	
+{
 	height: auto;
 	margin: 10px 0 20px 0;
 	padding: 10px;
@@ -546,7 +546,7 @@ html[xmlns] .slides{
 
 .notification_ok
 {
-    height: auto;
+  height: auto;
 	margin: 20px 0 70px 0;
 	padding: 30px 10px;
 	background: #6BBD64;

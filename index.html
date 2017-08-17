@@ -347,22 +347,22 @@
 
       <div class="form-box">
         <label>Name <small>*</small></label>
-        <input type="text" name="name" class="text">
+        <input type="text" name="entry.2049107151" class="text">
       </div><!-- End Box -->
 
       <div class="form-box">
         <label>Email <small>*</small></label>
-        <input type="text" name="email" class="text">
+        <input type="text" name="entry.339482078" class="text">
       </div><!-- End Box -->
 
       <div class="form-box last">
         <label>Subject </label>
-        <input type="text" name="subject" class="text">
+        <input type="text" name="entry.1635118029" class="text">
       </div><!-- End Box -->
 
       <div class="form-box big">
         <label>Message <small>*</small></label>
-        <textarea name="message"></textarea>
+        <textarea name="entry.1719651854"></textarea>
       </div><!-- End Box -->
 
       <div class="clearfix"></div>
@@ -444,17 +444,14 @@
 	var str = $(this).serialize();
 	$.ajax({
 	  type: "POST",
-	  url: "inc/contact-process.php",
+	  url: "https://docs.google.com/a/atokan.com/forms/d/1f_ZDodD6GZvV_iOPUnuZcQuPchhPxino1a3ZI2rm23c/formResponse",
 	  data: str,
 	  success: function(msg) {
 	  // Message Sent? Show the 'Thank You' message and hide the form
-	  if(msg == 'OK') {
-		  result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
-		  $("#fields").hide();
-		  setTimeout("location.reload(true);",7000);
-	  } else {
-		  result = msg;
-	  }
+	  result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+	  $("#fields").hide();
+	  setTimeout("location.reload(true);",7000);
+
 	  $('#note').html(result);
     }
 	});
