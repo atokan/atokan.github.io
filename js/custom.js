@@ -8,7 +8,7 @@
 */
 
 /*
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =  
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 =     00   00 00 00   00 00 00   00 00 00   00 00 00   00 00    =
 =     00   00    00        00    00    00   00    00   00       =
 =     00   00    00      00      00    00   00    00   00       =
@@ -39,27 +39,27 @@ $('.slidewrap').carousel({
 	speed: 700 // ms.
 });
 
-$('.slidewrap1').carousel({ 
-namespace: "carousel1", // Defaults to “carousel”.
+$('.slidewrap1').carousel({
+namespace: "carousel1", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
-$('.slidewrap2').carousel({ 
-namespace: "carousel2", // Defaults to “carousel”.
+$('.slidewrap2').carousel({
+namespace: "carousel2", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
-$('.slidewrap3').carousel({ 
-namespace: "carousel3", // Defaults to “carousel”.
+$('.slidewrap3').carousel({
+namespace: "carousel3", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
-$('.slidewrap4').carousel({ 
-namespace: "carousel4", // Defaults to “carousel”.
+$('.slidewrap4').carousel({
+namespace: "carousel4", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
-// works hover effect 
+// works hover effect
 $('.recent-work .item').hover(function(){
 	$(".img-caption", this).stop().animate({top:'0'},{queue:false,duration:400});
 }, function() {
@@ -82,9 +82,9 @@ $('.gallery .item').hover(function(){
 /* Adding a colortip to any tag with a data attribute: */
 $('[data]').colorTip({color:'yellow'});
 
-// UItoTop plugin 	
+// UItoTop plugin
 $().UItoTop({ easingType: 'easeOutQuart' });
- 
+
 // reponsive menu
 $("#menu > a").click(function () {
       $("#menu > ul").slideToggle("fast");
@@ -95,20 +95,20 @@ $('#menu > a').bind('click', function () {
   if ($(this).hasClass('current')) {
 	  $(this).removeClass('current');
 	  $(this).parent().parent().find('#menu > ul').slideUp('fast');
-	  
+
 	  return false;
   } else {
 	  $(this).addClass('current');
 	  $('#menu').removeClass('navigation');
 	  $('#menu').addClass('responsive');
 	  $(this).parent().parent().find('#menu > ul').slideDown('fast');
-	  
+
 	  return false;
   }
 } );
 
 
-$(window).bind('resize', function () { 
+$(window).bind('resize', function () {
   if ($(this).width() > 959) {
 	  $('#menu > a').removeClass('current');
 	  $('#menu').removeClass('responsive');
@@ -116,7 +116,7 @@ $(window).bind('resize', function () {
 	  $('#menu > ul').removeAttr('style');
   } else {
 	  $('#menu').removeClass('navigation');
-	  $('#menu').addClass('responsive');  
+	  $('#menu').addClass('responsive');
   }
 } );
 } )(jQuery);
@@ -130,7 +130,7 @@ $(function() {
     $('#menu a').each(function() {
         if ( $(this).parent('li').children('ul').size() > 0 ) {
             $(this).append('<i class="icon-angle-down responsive"></i>');
-        }           
+        }
     });
 });
 
@@ -146,20 +146,20 @@ $('a.down-button').bind('click', function () {
 	  $('a.down-button > i').removeClass('icon-angle-up');
 	  $('a.down-button > i').addClass('icon-angle-down');
 	  $(this).parent().parent().find('.slidedown').slideUp('slow');
-	  
+
 	  return false;
   } else {
 	  $(this).addClass('current');
 	  $('a.down-button > i').removeClass('icon-angle-down');
 	  $('a.down-button > i').addClass('icon-angle-up');
 	  $(this).parent().parent().find('.slidedown').slideDown('slow');
-	  
+
 	  return false;
   }
 } );
 
 
-$(window).bind('resize', function () { 
+$(window).bind('resize', function () {
   if ($(this).width() > 768) {
 	  $('a.down-button').removeClass('current');
 	  $('a.down-button > i').removeClass('icon-angle-up');
@@ -168,69 +168,6 @@ $(window).bind('resize', function () {
   }
 } );
 } )(jQuery);
-
-// Accordion
-$("#accordion").accordion({
-   autoHeight: false,
-   //active: '.selected', 
-   //selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion2").accordion({
-   autoHeight: false,
-   //active: '.selected', 
-   //selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion3").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion4").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion5").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion6").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion7").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion8").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion9").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-$("#accordion10").accordion({
-   autoHeight: false,
-   active: '.selected', 
-   selectedClass: 'active', 
-   icons: { "header": "icon-plus", "activeHeader": "icon-minus" }
-});
-
 
 // Progress Bar
 setTimeout(function(){
@@ -325,17 +262,17 @@ var text = $(this).siblings('div.panel');
 
 if (text.is(':hidden')) {
 	text.slideDown('200');
-	$(this).siblings('span').html('-');		
+	$(this).siblings('span').html('-');
 } else {
 	text.slideUp('200');
-	$(this).siblings('span').html('+');		
+	$(this).siblings('span').html('+');
 }
 });
 
 
 // Isotope Filtering
 $(function(){
-      
+
 var $container = $('#contain');
 
 // initialize Isotope
@@ -353,7 +290,7 @@ var $container = $('#contain');
 	  masonry: { columnWidth: $container.width() / 12 }
 	});
   });
-  
+
 
 $container.isotope({
   itemSelector : '.item',
@@ -392,130 +329,13 @@ $optionLinks.click(function(){
 	// otherwise, apply new options
 	$container.isotope( options );
   }
-  
+
   return false;
 });
 
 
 });
 
-
-// Flex Slider
-  $(window).ready(function() {
-						   
-  $('.flexslider').flexslider({
-	animation: 'fade',
-	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-	slideshow: true,                //Boolean: Animate slider automatically
-	slideshowSpeed: 6000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-	animationSpeed: 800,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-	pauseOnHover: true, 
-	pauseOnAction:true,
-	controlNav: false,
-	directionNav: true,
-	controlsContainer: '.flex-container',
-	start: function(slider) {
-		 var toptitle = $('.slider-1 .flex-active-slide h2').data('toptitle');
-		 var topimage = $('.slider-1 .flex-active-slide .item').data('topimage');
-		 var bottomtext = $('.slider-1 .flex-active-slide p').data('bottomtext');
-		 var bottomlinks = $('.slider-1 .flex-active-slide .links').data('bottomlinks');
-		 
-		 $('.slider-1 .flex-active-slide').find('.item').css({ top: topimage});
-         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '0', opacity: '1'}, 1000);
-		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: toptitle, opacity: '1'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: bottomtext, opacity: '1'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '0', bottom: bottomlinks, opacity: '1'}, 1800);
-		 
-		 // remove class loading after start
-		 slider.removeClass('loading');
-      },
-	before: function(slider) {
-         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '-100%', opacity: '0'}, 1000);
-		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: '-100%', opacity: '0'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: '-50%', opacity: '0'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '0', bottom: '-100%', opacity: '0'}, 1800);
-      },
-	after: function(slider) {
-		 var toptitle = $('.slider-1 .flex-active-slide h2').data('toptitle');
-		 var topimage = $('.slider-1 .flex-active-slide .item').data('topimage');
-		 var bottomtext = $('.slider-1 .flex-active-slide p').data('bottomtext');
-		 var bottomlinks = $('.slider-1 .flex-active-slide .links').data('bottomlinks');
-		 
-		 $('.slider-1 .flex-active-slide').find('.item').css({ top: topimage});
-         $('.slider-1 .flex-active-slide').find('.item').animate({ right: '0', opacity: '1'}, 1000);
-		 $('.slider-1 .flex-active-slide').find('h2').animate({ left: '0', top: toptitle, opacity: '1'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('p').animate({ left: '0', bottom: bottomtext, opacity: '1'}, 1500);
-		 $('.slider-1 .flex-active-slide').find('.links').animate({ left: '0', bottom: bottomlinks, opacity: '1'}, 1800);
-      }
-		});
-  
-  $('.flexslider4').flexslider({
-	animation: 'fade',
-	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-	slideshow: true,                //Boolean: Animate slider automatically
-	slideshowSpeed: 6000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-	animationSpeed: 800,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-	pauseOnHover: true, 
-	pauseOnAction:true,
-	controlNav: false,
-	directionNav: true,
-	controlsContainer: '.flex-container',
-	start: function(slider) {
-		 var bottomtitle = $('.slider-2 .flex-active-slide h2').data('bottomtitle');
-		 var bottomtext = $('.slider-2 .flex-active-slide p').data('bottomtext');
-		 var bottomlinks = $('.slider-2 .flex-active-slide .links').data('bottomlinks');
-		 
-		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: bottomtitle, opacity: '1'}, 1500);
-		 $('.slider-2 .flex-active-slide').find('p').animate({ bottom: bottomtext, opacity: '1'}, 2000);
-		 $('.slider-2 .flex-active-slide').find('.links').animate({ bottom: bottomlinks, opacity: '1'}, 2200);
-		 
-		 // remove class loading after start
-		 slider.removeClass('loading');
-      },
-	before: function(slider) {
-		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: '-20%', opacity: '0'}, 1500);
-		 $('.slider-2 .flex-active-slide').find('p').animate({ bottom: '-50%', opacity: '0'}, 2000);
-		 $('.slider-2 .flex-active-slide').find('.links').animate({ bottom: '-60%', opacity: '0'}, 2200);
-      },
-	after: function(slider) {
-		  var bottomtitle = $('.slider-2 .flex-active-slide h2').data('bottomtitle');
-		 var bottomtext = $('.slider-2 .flex-active-slide p').data('bottomtext');
-		 var bottomlinks = $('.slider-2 .flex-active-slide .links').data('bottomlinks');
-		 
-		 $('.slider-2 .flex-active-slide').find('h2').animate({ bottom: bottomtitle, opacity: '1'}, 1500);
-		 $('.slider-2 .flex-active-slide').find('p').animate({  bottom: bottomtext, opacity: '1'}, 2000);
-		 $('.slider-2 .flex-active-slide').find('.links').animate({  bottom: bottomlinks, opacity: '1'}, 2200);
-      }
-		});
-  
-  $('.flexslider2').flexslider({
-	animation: 'slide',
-	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-	slideshow: true,                //Boolean: Animate slider automatically
-	slideshowSpeed: 4500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-	animationSpeed: 700,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-	pauseOnHover: true, 
-	pauseOnAction:false,
-	controlNav: false,
-	directionNav: true,
-	controlsContainer: '.flex-container'
-		});
-  
-  $('.flexslider3').flexslider({
-	animation: 'slide',
-	animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
-	slideshow: false,                //Boolean: Animate slider automatically
-	slideshowSpeed: 4500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-	animationSpeed: 700,             //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
-	pauseOnHover: true, 
-	pauseOnAction:false,
-	controlNav: false,
-	directionNav: true,
-	controlsContainer: '.flex-container'
-		});
-  
-  
-	});
 
 /* FancyBox plugin */
 $('.fancybox').fancybox({
@@ -533,5 +353,5 @@ $("header.fixed .main-header").sticky({ topSpacing: 0 });
 $("header.fixed .down-header").sticky({ topSpacing: 0 });
 */
 $('.sticky-wrapper').removeAttr('style');
-								
+
 });
