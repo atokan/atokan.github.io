@@ -1,44 +1,518 @@
 <!DOCTYPE html>
-<!-- saved from url=(0048)http://v4-alpha.getbootstrap.com/examples/cover/ -->
-<html lang="en" data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Atokan consultancy. We are building amazing software.">
-    <meta name="author" content="Atokan">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Atokan - Building amazing software" />
-    <meta property="og:site_name" content="Atokan" />
-    <meta property="og:url" content="https://atokan.com" />
-    <meta property="og:image" content="https://atokan.com/image/og_image.jpg" />
-    <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-    <title>Atokan - Building amazing software</title>
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>Atokan - we build great software</title>
+  <meta name="description" content="We are a small consultancy, that specializes in helping start-ups grow">
+  <meta name="author" content="Atokan Team">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Custom styles for this template -->
-    <link href="css/cover.css" rel="stylesheet">
+  <!-- Main Style -->
+  <link rel="stylesheet" href="css/style.css">
 
-    <style type="text/css"></style>
-  </head>
+  <!-- Color Style -->
+  <link rel="stylesheet" href="css/skin.css" name="colors">
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <h1>Atokan</h1>
-        <p class="lead">Building amazing software</p>
-        <h5>Coming soon</h5>
+  <!-- Layout Style -->
+  <link rel="stylesheet" href="css/layout.css" name="layout">
+
+  <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+<body class="one-page">
+
+  <div id="wrap" class="boxed">
+
+   <header class="fixed" id="home">
+     <div class="top-bar">
+       <div class="container clearfix">
+        <div class="slidedown">
+
+         <div class="eight columns">
+           <div class="phone-mail">
+             <a><i class="icon-phone"></i> Phone : +359 895 729 719</a>
+             <a href="info@website.com"><i class="icon-envelope-alt"></i> Mail : valentin.mihov@gmail.com</a>
+           </div><!-- End phone-mail -->
+         </div>
+         </div><!-- End slidedown -->
+       </div><!-- End Container -->
+
+     </div><!-- End top-bar -->
+
+     <div class="main-header">
+       <div class="container clearfix">
+         <a href="#" class="down-button"><i class="icon-angle-down"></i></a><!-- this appear on small devices -->
+         <div class="one-third column">
+          <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="Atokan - we build great software" />
+          </a>
+          </div>
+         </div><!-- End Logo -->
+
+         <div class="two-thirds column">
+          <nav id="menu" class="navigation" role="navigation">
+          <a href="#">Show navigation</a><!-- this appear on small devices -->
+          <ul id="nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+         </nav>
+        </div><!-- End Menu -->
+
+       </div><!-- End Container -->
+     </div><!-- End main-header -->
+
+   </header><!-- <<< End Header >>> -->
+
+   <div class="slider-2 clearfix">
+
+     <div class="flex-container">
+       <div class="flexslider4">
+        <ul class="slides">
+          <li style="background:url(images/img/sliders/slider-2/slider-bg-2.jpg) no-repeat;background-position:50% 0">
+
+           <div class="container">
+           <div class="sixteen columns contain">
+
+             <h2 data-bottomtitle="45%">
+             <span>
+             Atokan
+             </span>
+             </h2>
+             <p data-bottomtext="30%">
+             <span>
+             We build great software
+             </span>
+             </p>
+
+           </div>
+         </div><!-- End Container -->
+
+          </li><!-- End item -->
+        </ul>
+       </div>
       </div>
+
+   </div><!-- End slider -->
+
+   <!-- ======================== Start Our Services ======================== -->
+
+   <div class="services style-2 home bottom-3" id="services">
+     <div class="container clearfix">
+
+       <div class="sixteen columns">
+        <h2 class="title">Our Services</h2>
+        <p class="description bottom-4">
+          We have delivered great products using the following technologies and techniques.
+        </p>
+       </div>
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-leaf"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">Ruby on Rails</a></h4>
+           <p>We have over 8 years of Ruby on Rails experience, building websites with thousands of simultanious users.</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-cogs"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">Machine Learning</a></h4>
+           <p>We have shipped machine learning models, that processed GBs of data daily.</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-th-large"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">Ember.JS</a></h4>
+           <p>We built SPA web applications spanning on tens of thounsads lines of code (~50000 lines the biggest one)</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-leaf"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">Elixir</a></h4>
+           <p>We have shipped several elixir projects, that are actively used at the moment.</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-resize-full"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">AWS</a></h4>
+           <p>We have a lot of experience hosting products on AWS and utilizing efficiently the services provided there.</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+       <div class="one-third column">
+         <div class="item bottom-4">
+           <div class="circle float-left"><a href="#"><i class="icon-th-large"></i></a></div>
+           <div class="data float-right">
+           <h4><a href="#">Scalability</a></h4>
+           <p>We know computer science and can help you scale your product and identify and fix performance problems.</p>
+           </div>
+         </div>
+       </div><!-- End item -->
+
+     </div><!-- End Container -->
+   </div><!-- End services -->
+
+   <!-- ======================== End ======================== -->
+
+   <!-- ======================== Start Our Work ======================== -->
+
+    <div class="portfolio bottom-4" id="portfolio">
+     <div class="container top-5 clearfix">
+
+    <div class="sixteen columns">
+        <h2 class="title">Our Work</h2>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-</body></html>
+    <div class="clearfix"></div>
+
+    <div id="contain">
+
+    <!-- =================================================== -->
+
+    <!-- item 1 -->
+      <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
+        <a class="fancybox" href="images/img/portfolio/single/image-1-1.png" data-fancybox-group="gallery"
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
+          <div class="img-caption">
+          <div class="desc"><h3>DreamBox Learning</h3><p>ActionScript, Ruby on Rails, scaling the system to support 1000s of concurrent users.</p><span><i class="icon-search"></i></span></div>
+          </div><!-- hover effect -->
+          </a>
+      </div>
+      <!-- End -->
+
+     <!-- item 2 -->
+      <div class="one-third column item element-3 Logo Photography" data-categories="Logo Photography">
+        <a class="fancybox" href="images/img/portfolio/single/image-1-2.jpg" data-fancybox-group="gallery"
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
+          <div class="img-caption">
+          <div class="desc"><h3>AirHelp</h3><p>Ruby on Rails, Ember.JS, Elixir, Email importer, flight DB, machine learning, AWS and scaling to 1000s RPM</p><span><i class="icon-search"></i></span></div>
+          </div><!-- hover effect -->
+          </a>
+      </div>
+      <!-- End -->
+
+      <!-- item 3 -->
+      <div class="one-third column item element-3 Web Photography" data-categories="Web Photography">
+        <a class="fancybox" href="images/img/blog/single/image-1-1.jpg" data-fancybox-group="gallery"
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-3.jpg" alt="" class="pic" />
+          <div class="img-caption">
+          <div class="desc"><h3>SEC Live</h3><p>Machine learning, parsing unstructured data, algorithmic investing</p><span><i class="icon-search"></i></span></div>
+          </div><!-- hover effect -->
+          </a>
+      </div>
+      <!-- End -->
+
+      <!-- =================================================== -->
+
+      <!-- item 4 -->
+      <div class="one-third column item element-3 Photography Animation" data-categories="Web Photography">
+        <a class="fancybox" href="images/img/blog/single/image-1-2.jpg" data-fancybox-group="gallery"
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-4.jpg" alt="" class="pic" />
+          <div class="img-caption">
+          <div class="desc"><h3>Maycamp Arena</h3><p>Ruby on Rails, Docker, sandboxing user-submitted source code</p><span><i class="icon-search"></i></span></div>
+          </div><!-- hover effect -->
+          </a>
+      </div>
+      <!-- End -->
+
+      <!-- item 5 -->
+      <div class="one-third column item element-3 Web Animation" data-categories="Web Animation">
+        <a class="fancybox" href="images/img/portfolio/thumb-5.jpg" data-fancybox-group="gallery"
+        title="<a href='#' target='_blank'>This Link</a> Here you can add some description about your image">
+          <img src="images/img/portfolio/thumb-5.jpg" alt="" class="pic" />
+          <div class="img-caption">
+          <div class="desc"><h3>Melodica Inventory</h3><p>Elixir, Phoenix</p><span><i class="icon-search"></i></span></div>
+          </div><!-- hover effect -->
+          </a>
+      </div>
+      <!-- End -->
+
+      <!-- =================================================== -->
+
+    </div><!-- End contain-->
+
+     </div><!-- End Container -->
+    </div><!-- End portfolio -->
+
+    <!-- ======================== End ======================== -->
+
+
+    <!-- ======================== Start About us ======================== -->
+
+   <div class="home-bg bottom-3" id="about">
+     <div class="container clearfix">
+
+      <div class="sixteen columns">
+        <h2 class="title">About us</h2>
+        <p class="description bottom-4">
+          We are passionate about software, user experience and efficient development using small steps. We like to write a lot of tests on our code and ship it continuously. We like to concentrate on features, rather than building the perfect abstraction for your use-case.
+        </p>
+       </div>
+
+       <div class="team">
+
+       <div id="contain">
+
+      <!-- item 1 -->
+      <div class="one-third column item">
+        <img src="images/img/team/valentin_mihov.jpg" alt="" />
+        <h4>Valentin Mihov</h4> <span>- CEO and lead engineer</span>
+        <div class="clearfix"></div>
+        <p>
+          Valentin is with a strong computer science background. He participated on international computer science competitions, from which he won gold and silver medals. He has over 8 years of Ruby on Rails experience and over 9 years of remote work experience. He helped startups scale from small teams to 100+ companies and layed the foundations on which they grow their business.
+        </p>
+        <div class="member-social">
+         <a href="https://valentinmihov.com"><i class="social_icon-chrome s-17"></i></a>
+         <a href="https://twitter.com/valentinmihov"><i class="social_icon-twitter s-17"></i></a>
+         <a href="https://www.facebook.com/people/Valentin-Mihov/644529895"><i class="social_icon-facebook s-18"></i></a>
+         <a href="https://www.linkedin.com/in/valentinmihov"><i class="social_icon-linkedin s-17"></i></a>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- item 2 -->
+      <div class="one-third column item">
+        <img src="images/img/team/member-1.jpg" alt="" />
+        <h4>Tsvetozar Penov</h4> <span>- Full Stack Engineer</span>
+        <div class="clearfix"></div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <div class="member-social">
+        <a href="#"><i class="social_icon-twitter s-17"></i></a>
+         <a href="#"><i class="social_icon-facebook s-18"></i></a>
+         <a href="#"><i class="social_icon-dribbble s-18"></i></a>
+         <a href="#"><i class="social_icon-gplus s-18"></i></a>
+         <a href="#"><i class="social_icon-linkedin s-17"></i></a>
+        </div>
+      </div>
+      <!-- End -->
+
+      <!-- item 3 -->
+      <div class="one-third column item">
+        <img src="images/img/team/member-1.jpg" alt="" />
+        <h4>Liudmil Lesinski</h4> <span>- Full Stack Engineer</span>
+        <div class="clearfix"></div>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+         <div class="member-social">
+         <a href="https://www.linkedin.com/in/liudmil-lesinski-078b6927/"><i class="social_icon-linkedin s-17"></i></a>
+        </div>
+      </div>
+      <!-- End -->
+
+      </div><!-- End contain -->
+
+     </div><!-- End team -->
+
+    </div><!-- End column -->
+
+    </div><!-- End Container -->
+   </div><!-- End about -->
+
+   <!-- ======================== End ======================== -->
+
+   <!-- ======================== Start Contact ======================== -->
+
+   <div class="bottom-3" id="contact">
+     <div class="container clearfix">
+
+      <div class="sixteen columns">
+        <h2 class="title">Contact Us</h2>
+        <p class="description bottom-4">
+          If you think our team is a good fit your product, we will be happy to chat about it.
+        </p>
+       </div>
+
+       <div class="clearfix"></div>
+
+       <div class="eleven columns top-3 bottom-2">
+       <h3 class="title bottom-2">Get in touch</h3>
+
+       <div id="note"></div><!-- End notification -->
+
+      <div id="fields">
+
+       <form id="ajax-contact-form" action="">
+
+      <div class="form-box">
+        <label>Name <small>*</small></label>
+        <input type="text" name="name" class="text">
+      </div><!-- End Box -->
+
+      <div class="form-box">
+        <label>Email <small>*</small></label>
+        <input type="text" name="email" class="text">
+      </div><!-- End Box -->
+
+      <div class="form-box last">
+        <label>Subject </label>
+        <input type="text" name="subject" class="text">
+      </div><!-- End Box -->
+
+      <div class="form-box big">
+        <label>Message <small>*</small></label>
+        <textarea name="message"></textarea>
+      </div><!-- End Box -->
+
+      <div class="clearfix"></div>
+
+      <input type="submit" value="Send Message" class="button medium color" />
+
+      </form>
+
+      </div><!-- End fields -->
+
+     </div>
+
+     <div class="five columns top-3 bottom-2">
+       <h3 class="title bottom-2">Contact Info</h3>
+
+       <ul class="address-info">
+         <li>Tsvetna Gradina 19, apt. 6, Sofia, Bulgaria</li>
+       </ul>
+
+       <ul class="phone-info">
+         <li>(+359) 895 - 729 - 719</li>
+       </ul>
+
+       <ul class="email-info">
+         <li>valentin.mihov@gmail.com</li>
+       </ul>
+
+     </div>
+
+
+
+        </div><!-- End Container -->
+   </div><!-- End about -->
+
+   <!-- ======================== End ======================== -->
+
+
+
+
+   <footer>
+
+     <div class="footer-down">
+      <div class="container clearfix">
+
+        <div class="eight columns">
+         <span class="copyright">
+         © Copyright 2017 <a href="index.html">Atokan</a>. All Rights Reserved.</span>
+        </div><!-- End copyright -->
+      </div><!-- End container -->
+     </div><!-- End footer-top -->
+
+   </footer><!-- <<< End Footer >>> -->
+
+  </div><!-- End wrap -->
+
+  <!-- Start JavaScript -->
+  <script src="js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
+  <script src="js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing -->
+  <script src="js/jquery-ui/jquery.ui.core.js"></script> <!-- jQuery Ui Core-->
+  <script src="js/jquery-ui/jquery.ui.widget.js"></script> <!-- jQuery Ui Widget -->
+  <script src="js/jquery-ui/jquery.ui.accordion.js"></script> <!-- jQuery Ui accordion-->
+  <script src="js/jquery-cookie.js"></script> <!-- jQuery cookie -->
+  <script src="js/ddsmoothmenu.js"></script> <!-- Nav Menu ddsmoothmenu -->
+  <script src="js/jquery.flexslider.js"></script> <!-- Flex Slider  -->
+  <script src="js/colortip.js"></script> <!-- Colortip Tooltip Plugin  -->
+  <script src="js/tytabs.js"></script> <!-- jQuery Plugin tytabs  -->
+  <script src="js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
+  <script src="js/carousel.js"></script> <!-- jQuery Carousel  -->
+  <script src="js/jquery.isotope.min.js"></script> <!-- Isotope Filtering  -->
+  <script src="js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
+  <script src="js/doubletaptogo.js"></script> <!-- Touch-friendly Script  -->
+  <script src="js/fancybox/jquery.fancybox.js"></script> <!-- jQuery FancyBox -->
+  <script src="js/jquery.sticky.js"></script> <!-- jQuery Sticky -->
+  <!-- Start onepage js -->
+  <script src="js/one-page/jquery.scrollTo.js"></script>
+  <script src="js/one-page/jquery.nav.js"></script>
+  <script>
+  $(document).ready(function() {
+	$('#nav').onePageNav({
+	  begin: function() {
+	  console.log('start')
+	  },
+	  end: function() {
+	  console.log('stop')
+	  },
+	  filter: ':not(.external)',
+	  scrollThreshold: 0.25,
+	  scrollOffset: 200
+	});
+  });
+  </script>
+  <!-- End onepage js -->
+  <script src="js/custom.js"></script> <!-- Custom Js file for javascript in html -->
+  <!-- End JavaScript -->
+
+  <!-- Contact Form Js -->
+  <script type="text/javascript">
+	// contact form js
+	jQuery(document).ready(function($) {
+	$("#ajax-contact-form").submit(function() {
+	var str = $(this).serialize();
+	$.ajax({
+	  type: "POST",
+	  url: "inc/contact-process.php",
+	  data: str,
+	  success: function(msg) {
+	  // Message Sent? Show the 'Thank You' message and hide the form
+	  if(msg == 'OK') {
+		  result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+		  $("#fields").hide();
+		  setTimeout("location.reload(true);",7000);
+	  } else {
+		  result = msg;
+	  }
+	  $('#note').html(result);
+    }
+	});
+	return false;
+	});
+	});
+   </script>
+   <!-- End Contact -->
+
+</body>
+</html>
