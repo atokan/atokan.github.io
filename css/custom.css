@@ -20,9 +20,10 @@
 /* Custom CSS Code
 =================================================*/
 
-span.logo {
+.logo {
 	font-size: 40px;
 	font-weight: 600;
+	margin: 45px 0 30px 0;
 }
 
 .splash {
@@ -46,4 +47,14 @@ span.logo {
 		min-height: 378px;
 	}
 
+	.logo {
+		font-size: 30px;
+		font-weight: 600;
+		margin: 15px 0 10px 0;
+	}
+
+	.main-header .two-thirds {
+		margin-bottom: 10px;
+		margin-top: -15px;
+	}
 }

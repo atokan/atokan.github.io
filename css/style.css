@@ -123,10 +123,6 @@ footer .social {
 	margin-right:7px;
 }
 
-.logo {
-	margin:35px 0;
-}
-
 /* header styles */
 header.style-2 .top-bar {
 	min-height: 4px;
@@ -1460,10 +1456,6 @@ header.style-3.style-5 .down-header {
 
 .main-header .one-third.column, .main-header .two-thirds.column {
 	width:auto;
-}
-
-.logo {
-	margin:30px 0 45px 0;
 }
 
 header.style-3 .logo {
