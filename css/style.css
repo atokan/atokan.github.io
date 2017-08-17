@@ -23,6 +23,7 @@
 @import url("font.css");                                 /* Custom Font */
 @import url("base.css");                                 /* Reset & Basics */
 @import url("font-awesome/css/font-awesome.min.css");    /* Font Awesome */
+@import url("font-mfizz/css/font-mfizz.css");            /* Font Mfizz */
 @import url("fontello/css/fontello.css");                /* Fontello Social */
 @import url("skeleton.css");                             /* Base 960 Grid */
 @import url("javascript.css");                           /* Css Styles for js scripts */
