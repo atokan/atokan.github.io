@@ -66,7 +66,7 @@
 
          <div class="two-thirds column">
           <nav id="menu" class="navigation" role="navigation">
-          <a href="#">Show navigation</a><!-- this appear on small devices -->
+          <a href="#" id="hamburger">Show navigation</a><!-- this appear on small devices -->
           <ul id="nav">
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
@@ -440,10 +440,11 @@
   $(document).ready(function() {
 	$('#nav').onePageNav({
 	  begin: function() {
-	  console.log('start')
 	  },
 	  end: function() {
-	  console.log('stop')
+      if ($('#hamburger').css("display") == 'block') {
+        $('#nav').css({"display": "none"})
+      }
 	  },
 	  filter: ':not(.external)',
 	  scrollThreshold: 0.25,
