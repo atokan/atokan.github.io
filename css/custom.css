@@ -73,3 +73,11 @@
 .is-sticky .down-button {
 	display: none;
 }
+
+.fancybox-title-float-wrap {
+	margin-bottom: 0;
+}
+
+.fancybox-title-float-wrap .child {
+	white-space: normal;
+}
