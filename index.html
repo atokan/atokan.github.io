@@ -465,7 +465,7 @@
 	  type: "POST",
 	  url: "https://docs.google.com/a/atokan.com/forms/d/1f_ZDodD6GZvV_iOPUnuZcQuPchhPxino1a3ZI2rm23c/formResponse",
 	  data: str,
-	  success: function(msg) {
+	  complete: function() {
 	  // Message Sent? Show the 'Thank You' message and hide the form
 	  result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
 	  $("#fields").hide();
