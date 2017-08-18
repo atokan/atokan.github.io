@@ -443,9 +443,11 @@
   $(document).ready(function() {
 	$('#nav').onePageNav({
 	  begin: function() {
-	  },
+    },
+
 	  end: function() {
       if ($('#hamburger').css("display") == 'block') {
+        $('#hamburger').prop("class", "")
         $('#nav').css({"display": "none"})
       }
 	  },
