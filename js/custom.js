@@ -27,38 +27,6 @@ ddsmoothmenu.init({
 	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })
 
-// Carousel slider
-$('.slidewrap').carousel({
-	slider: '.slider',
-	slide: '.slide',
-	slideHed: '.slidehed',
-	nextSlide : '.next-slide',
-	prevSlide : '.prev-slide',
-	addPagination: false,
-	addNav : false,
-	speed: 700 // ms.
-});
-
-$('.slidewrap1').carousel({
-namespace: "carousel1", // Defaults to �carousel�.
-speed: 600 // ms.
-})
-
-$('.slidewrap2').carousel({
-namespace: "carousel2", // Defaults to �carousel�.
-speed: 600 // ms.
-})
-
-$('.slidewrap3').carousel({
-namespace: "carousel3", // Defaults to �carousel�.
-speed: 600 // ms.
-})
-
-$('.slidewrap4').carousel({
-namespace: "carousel4", // Defaults to �carousel�.
-speed: 600 // ms.
-})
-
 // works hover effect
 $('.recent-work .item').hover(function(){
 	$(".img-caption", this).stop().animate({top:'0'},{queue:false,duration:400});
@@ -186,69 +154,6 @@ me.text((current_perc)+'%');
 }, 10);
 });
 },10);
-
-// Tabs
-$("#horizontal-tabs").tytabs({
-  tabinit:"1",
-  fadespeed:"fast"
-  //catchget:"tab2"
-  });
-$("#horizontal-tabs.two").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_two",
-  prefixcontent:"content_two",
-  fadespeed:"fast"
-  });
-$("#horizontal-tabs.three").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_three",
-  prefixcontent:"content_three",
-  fadespeed:"fast"
-  });
-$("#horizontal-tabs.four").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_four",
-  prefixcontent:"content_four",
-  fadespeed:"fast"
-  });
-$("#horizontal-tabs.five").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_five",
-  prefixcontent:"content_five",
-  fadespeed:"fast"
-  });
-
-$("#vertical-tabs").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_v",
-  prefixcontent:"content_v",
-  fadespeed:"fast"
-  });
-$("#vertical-tabs.two").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_v_two",
-  prefixcontent:"content_v_two",
-  fadespeed:"fast"
-  });
-$("#vertical-tabs.three").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_v_three",
-  prefixcontent:"content_v_three",
-  fadespeed:"fast"
-  });
-$("#vertical-tabs.four").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_v_four",
-  prefixcontent:"content_v_four",
-  fadespeed:"fast"
-  });
-$("#vertical-tabs.five").tytabs({
-  tabinit:"1",
-  prefixtabs:"tab_v_five",
-  prefixcontent:"content_v_five",
-  fadespeed:"fast"
-  });
-
 
 // Alert Boxes
 $(".hideit").click(function() {
