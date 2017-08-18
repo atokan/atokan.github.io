@@ -81,3 +81,20 @@
 .fancybox-title-float-wrap .child {
 	white-space: normal;
 }
+
+.icon-ruby-on-rails {
+  margin-left: 6px;
+}
+
+.icon-javascript {
+  margin-left: 5px;
+}
+
+.icon-aws {
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.icon-resize-full {
+  margin-top: -1px;
+}
