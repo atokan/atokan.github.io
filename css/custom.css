@@ -69,3 +69,7 @@
 		display: none;
 	}
 }
+
+.is-sticky .down-button {
+	display: none;
+}
