@@ -60,7 +60,6 @@ $("#menu > a").click(function () {
 
 (function ($) {
 $('#menu > a').bind('click', function () {
-	console.log("Test");
 	$('#menu #nav').hide();
 
   if ($(this).hasClass('current')) {
@@ -80,7 +79,7 @@ $('#menu > a').bind('click', function () {
 
 
 $(window).bind('resize', function () {
-  if ($(this).width() > 959) {
+  if ($(this).width() > 944) {
 	  $('#menu > a').removeClass('current');
 	  $('#menu').removeClass('responsive');
 	  $('#menu').addClass('navigation');
